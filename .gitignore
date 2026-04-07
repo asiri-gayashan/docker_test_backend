@@ -1,0 +1,61 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+*.secret
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build / cache / temp
+dist/
+build/
+coverage/
+.tmp/
+temp/
+.cache/
+
+# Python (if used)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Docker
+docker-compose.override.yml
+*.tar
+*.tar.gz
+
+# Testing artifacts
+junit.xml
+.nyc_output/
+
+# Misc
+*.pid
+*.seed
+*.out
